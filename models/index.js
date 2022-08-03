@@ -9,8 +9,9 @@ const ProductTag = require("./ProductTag");
 // product references category models id (category_id)
 
 // Products belongsTo Category
-Product.belongsTo(User, {
+Product.belongsTo(Category, {
     foreignKey: "category_id",
+    // onDelete:'CASCADE'
 });
 
 // Categories have many Products
@@ -21,14 +22,14 @@ Category.hasMany(Product, {
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
     through: ProductTag,
-    as: "product_tag",
+    // as: "product_tag",
     foreignKey: "product_id",
 });
 
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
     through: ProductTag,
-    as: "product_tag",
+    // as: "product_tag", why didn't this work?? based on module, "voted_posts"
     foreignKey: "tag_id",
 });
 
