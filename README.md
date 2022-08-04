@@ -2,6 +2,8 @@
 
 ## Description
 
+The perfect beginning of a magnificent e-commerce website, this repository contains all the back-end code you'll need to start your website off right. Of the MVC model, you're really only missing the V! There are full and functioning routes, models, and seeds to test run things. If you want to see more of what this application can do for you, I'd suggest checking out [the video I made!](#tests)
+
 ## Table of Contents
 
 -   [Installation](#installation)
@@ -26,7 +28,7 @@ If you'd like to contribute to this project, that's wonderful. You can fork it t
 
 If you'd like to test this, you can clone the repo and follow the [installation](#installation) directions.
 
-Even better, check out this [handy walkthrough video I made!]()
+Even better, check out this [handy walkthrough video I made!](https://drive.google.com/file/d/10BqZhEwJcclPM6gff2010x7jUjeszgH_/view)
 
 ## Questions
 
